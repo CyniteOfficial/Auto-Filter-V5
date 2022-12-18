@@ -37,26 +37,26 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "Db")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cynite")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Shortnersearch:shortnersearch@cluster0.9xtke7p.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cynitesupport')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cynitebackup')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cynitesupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', id))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', id)) 
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001797596826))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001810806290)) 
 )
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/cynitemovies/3')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', Id))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', Id))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001819673897))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001819673897))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -86,8 +86,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'site link')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'Your Api')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shortnerfly.com')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'de303d5270f481aec928f39883da7b7f9a8812ac')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
