@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '16141826'))
-API_HASH = environ.get('API_HASH', '9b5708804f33947be47288c7bae298a1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5609692558:AAF39xlcLemakR8iKl-SLw8RXu1DourjNxc")
+API_ID = int(environ.get('API_ID', 'id'))
+API_HASH = environ.get('API_HASH', 'Hash')
+BOT_TOKEN = environ.get('BOT_TOKEN', "token")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,8 +27,8 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/e6988ad41be403394fda5.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1923283818').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001645836068').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', 'Id').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', 'id').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -37,25 +37,26 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dipanshu_021:ad8920@cluster0.f7migc1.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
+DATABASE_URI = environ.get('DATABASE_URI', "Db")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cynite")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Imdb_updates')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Imdb_updates')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Aks_support01_bot')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Imdb_updates')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_download_channel/11')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', id))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', id)) 
+)
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', Id))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', Id))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
