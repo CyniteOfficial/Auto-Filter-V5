@@ -55,7 +55,7 @@
 
 ## Credits 
 
-* [![Aks](https://img.shields.io/static/v1?label=KDBotz&message=Github&color=critical)](https://t.me/KD_Botz)
+* [![Aks](https://img.shields.io/static/v1?label=KDBotz&message=Telegram&color=critical)](https://t.me/KD_Botz)
 * [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/Cynitesupport)
 
 ## Deploy 
