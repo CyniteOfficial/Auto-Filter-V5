@@ -1,8 +1,6 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=IMDB+MOVIE+SEARCH+BOT+!;CREATED+BY+TECHNICAL+CYNITE!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
-<p align="center">
-  <img src="https://telegra.ph/file/f5860fcf0d55aed22b847.jpg" alt="Imdb updates">
 </p>
 <h1 align="center">
   <b>Auto-Filter-V5</b>
