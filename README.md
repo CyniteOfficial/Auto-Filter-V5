@@ -5,7 +5,7 @@
   <img src="https://telegra.ph/file/f5860fcf0d55aed22b847.jpg" alt="Imdb updates">
 </p>
 <h1 align="center">
-  <b>IMDB</b>
+  <b>Auto-Filter-V5</b>
 </h1>
 
 <b># Admin Commands
