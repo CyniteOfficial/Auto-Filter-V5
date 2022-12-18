@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=IMDB+MOVIE+SEARCH+BOT+!;CREATED+BY+IMDB+TEAM!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=IMDB+MOVIE+SEARCH+BOT+!;CREATED+BY+TECHNICAL+CYNITE!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@
 
 - [x] /delg - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ
 
-## TG Bot [@Imdb_movies1_bot](t.me/Imdb_movies1_bot)
+## TG Bot [@CyniteBackup](t.me/CynitrBackup)
 
 ## Credits 
 
