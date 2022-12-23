@@ -28,7 +28,7 @@ NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jp
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '884919097').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001154529469').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001807508263').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -42,15 +42,15 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Netflixv5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files_v5')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Netflix_hindi_movies_4k')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/requestluciferdownload')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Netflix_hindi_movies_4k')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/sohan_supportnetflix_hindi')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001154529469))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001154529469))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Netflix_hindi_movies_4k')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001495446942))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001807508263))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+rsU63u4T3ew1N2I1')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Netflix_hindi_movies_4k/341')
 
 # Log Channels
@@ -58,9 +58,9 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001852774435))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001852774435))
 
 # Bot Options
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>{mention}'s Qᴜᴇʀʏ ☞ <code>{query}</code>\n\n<b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>\n\n🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10\n💀 Rᴇʟᴇᴀsᴇ :  <b>{release_date}</b> <b>{countries}</b>\n\n🎭 Gᴇɴʀᴇs : <b>#{genres}</b></b>\n\n<b>🔅 Pᴏᴡᴇʀᴇᴅ Bʏ : {message.chat.title}</b>")
