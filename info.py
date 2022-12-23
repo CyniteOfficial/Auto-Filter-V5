@@ -48,7 +48,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/sohan_supportnetflix_hi
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001501082759))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001154529469))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001154529469))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Netflix_hindi_movies_4k')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Netflix_hindi_movies_4k/341')
