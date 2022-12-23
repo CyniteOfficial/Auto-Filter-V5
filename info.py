@@ -43,7 +43,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files_v5')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/requestluciferdownload')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Netflix_hindi_movies_4k')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+rsU63u4T3ew1N2I1')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/sohan_supportnetflix_hindi')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
