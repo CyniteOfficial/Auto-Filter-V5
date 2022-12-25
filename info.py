@@ -28,7 +28,7 @@ NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jp
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5294520099').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001675994359').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -49,7 +49,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001713976983))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001534475239))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001675994359))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/as_world_official')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/as_world_official')
 
