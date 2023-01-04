@@ -1,20 +1,3 @@
-
-adityabotdeployer
-/
-Auto-Filter-V5
-Public
-forked from CyniteOfficial/Auto-Filter-V5
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-Auto-Filter-V5/CYNITE/gfilters.py
-@CyniteOfficial
-CyniteOfficial Add files via upload
- 1 contributor
-129 lines (109 sloc)  4.19 KB
 import io
 from pyrogram import filters, Client, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
