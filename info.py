@@ -50,7 +50,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001502366282))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001902606759)
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/hindi_movies_1st_here')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cinemaa_boxoffice')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Shazam_bot_support')
 
 # Log Channels
