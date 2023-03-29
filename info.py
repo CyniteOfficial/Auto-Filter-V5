@@ -15,13 +15,13 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '11970745'))
 API_HASH = environ.get('API_HASH', '095d152ad4d8cc7cf912bb142cbceed0')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6012346500:AAGMVt_Y5e9UKbIiFm_uueP8GEmY4TMMYTU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6205697935:AAG5xGPauKw9JAcOCl711IRi4IIKy9e5C3A")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/a462716ef38edd56dce72.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/a462716ef38edd56dce72.jpg https://graph.org/file/7603a36afc9c21b710fd9.jpg https://graph.org/file/c2d618fc2a53b84404caa.jpg https://graph.org/file/68c82c75495bdd0d58931.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b5aab72226185cfcdf309.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e790.jpg")
 NEWGRP = environ.get("NEWGRP", "https://i.imgur.com/YUrXihj.jpg")
