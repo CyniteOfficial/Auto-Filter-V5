@@ -37,7 +37,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dipanshu_021:ad8920@cluster0.f7migc1.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://DwayneJohonson:JTeZAhSZc8MVwuEk@cluster0.n6c4s.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cinemaa_boxofficeBot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -49,12 +49,12 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001502366282))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001968661581))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001902606759)
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/hindi_movies_1st_here')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Shazam_bot_support')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001782414786))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001801471389)
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001968661581))
 
 # Bot Options
