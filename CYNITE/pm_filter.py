@@ -165,7 +165,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("🔮 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋ 🔮", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("🔮 JOIN BACKUP CHANNEL 🔮", url=HOW_DWLD_LINK)
     ])
     try:
         await query.edit_message_reply_markup(
@@ -718,10 +718,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/VisionBackup')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/New_Moviee_hindi')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='t.me/newmovie_1st_on_tg'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/VisionBackup')
+                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/+4nzja42ELQwzOWVl'),
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/New_Moviee_hindi')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
@@ -981,7 +981,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("🔮 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋ 🔮", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("🔮 JOIN BACKUP CHANNEL 🔮", url=HOW_DWLD_LINK)
     ])
 
     if offset != "":
