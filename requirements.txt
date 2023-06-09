@@ -8,5 +8,7 @@ requests
 bs4
 IMDbPY==2022.7.9
 psutil
-aiohttp
+aiohttp==3.8.1
 pytz
+Flask==2.2.2
+gunicorn==20.1.0
