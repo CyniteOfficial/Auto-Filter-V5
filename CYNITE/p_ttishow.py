@@ -44,7 +44,7 @@ async def save_group(bot, message):
             return
         buttons = [[
                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=CHNL_LNK),
-                    InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ', url=f"https://t.me/CyniteSupport")
+                    InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ', url=f"https://t.me/VisionBackup")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -56,7 +56,7 @@ async def save_group(bot, message):
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton("ɢʀᴏᴜᴘ📌", url="https://t.me/cynitesupport")
+                InlineKeyboardButton("ɢʀᴏᴜᴘ📌", url="https://t.me/VisionBackup")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
